@@ -120,7 +120,7 @@ void loop()
     ch = Serial.read();
     if(int(ch) != 10)
       print_morse(ch);
-    delay(3*time_unit);
+    delay(letter_gap);
   }
 }
 
@@ -185,6 +185,6 @@ void blink_LED(const bool code[5],int len)
       Serial.print(".");
     }
     digitalWrite(LED_pin,LOW);
-    delay(letter_gap);
+    delay(time_unit);
   }
 }
