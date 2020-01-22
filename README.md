@@ -10,7 +10,7 @@ Morse code is a method used in telecommunication to encode text characters as st
 - Typically, `-` is 3 times as long as `.`
 - The gap between successive `.`s or `-`s in the code of a letter is same as length of `.`
 - A combination of `.` and `-` is assigned for each letter. eg. a is `.-`
-- The gap between letters is more, typically the length of '-' ie, 3 times that of gap between letters
+- The gap between letters is more, typically the length of `-` ie, 3 times that of gap between letters
 - The gap between words is even greater, typically about 7 times that of `.`
-- The chart for characters : 
+- The chart for characters :
 ![Morse Code Table](https://merriam-webster.com/assets/mw/static/table/collegiate/morsecod.jpg)
